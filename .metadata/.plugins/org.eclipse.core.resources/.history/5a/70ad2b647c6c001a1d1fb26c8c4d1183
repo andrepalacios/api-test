@@ -1,0 +1,5 @@
+package com.andre.servicio.app.products.models.dao;
+
+public interface IProductoService {
+
+}

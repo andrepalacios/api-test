@@ -1,0 +1,4 @@
+INSERT INTO productos (name, description, price, available_stock, restock_threshold, maxstock_threshold) VALUES('Panasonic', 'TV color',800 ,5, 2, 10);
+INSERT INTO productos (name, description, price, available_stock, restock_threshold, maxstock_threshold) VALUES('Sony', 'DVD HD',450 ,3, 2, 10);
+INSERT INTO productos (name, description, price, available_stock, restock_threshold, maxstock_threshold) VALUES('LG', 'Smart TV HD',675 ,3, 2, 10);
+INSERT INTO productos (name, description, price, available_stock, restock_threshold, maxstock_threshold) VALUES('Samsung', 'Smart TV ultimate generation',1200 ,5, 2, 10);

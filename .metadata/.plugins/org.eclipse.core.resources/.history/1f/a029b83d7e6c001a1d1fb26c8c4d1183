@@ -1,0 +1,21 @@
+package com.andre.servicio.app.products.controllers;
+
+public class ProductoController {
+	
+	@Autowired
+    private IProductoService productoService;
+    
+    @GetMapping("/listar")
+    public List<Producto> listar(){
+        
+        return productoService.findAll();
+        
+    }
+
+    @GetMapping("/listar/{id}")
+    public Producto detalle(@PathVariable Long id) {
+        return productoService.findById(id);
+    }
+
+
+}

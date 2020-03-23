@@ -1,0 +1,8 @@
+package com.andre.servicio.app.products.models.entity;
+
+@Entity
+public class WharehouseActivity {
+	
+	
+
+}

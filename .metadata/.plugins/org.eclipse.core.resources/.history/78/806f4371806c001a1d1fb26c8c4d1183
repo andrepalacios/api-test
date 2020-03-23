@@ -1,0 +1,2 @@
+INSERT INTO productos (name, description, price, available_stock, restock_threshold, maxstock_threshold, create_at) VALUES('Panasonic', 'TV color',800 ,5, 2, 10, NOW());
+INSERT INTO productos (name, description, price, available_stock, restock_threshold, maxstock_threshold, create_at) VALUES('Sony', 'DVD HD',450 ,3, 2, 10, NOW());
