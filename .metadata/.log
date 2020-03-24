@@ -832,3 +832,220 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-zuul:ja
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-23 18:30:06.964
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.imVLUHje => OK
+!SESSION 2020-03-24 16:05:02.225 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=1.8.0_242
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_SV
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2020-03-24 16:05:20.143
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-24 16:05:20.143
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7cbe3a05,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40b70f31,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:30.383
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:30.384
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3b2114ce[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:30.387
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:30.770
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.520
+!MESSAGE Boot LS startup time from start to initialized: 14063ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.915
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AIfADoQjisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.929
+!MESSAGE subscribing to classpath changes: sts4.classpath.AIfADoQj isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.930
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.932
+!MESSAGE subsribers = {sts4.classpath.AIfADoQj=Send Classpath Notifications(96)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.933
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.933
+!MESSAGE project zuul-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.933
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.934
+!MESSAGE Preparing classpath changed notification zuul-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.934
+!MESSAGE project service-products-stock ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.934
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.934
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:44.935
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AIfADoQj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.068
+!MESSAGE classpath=158 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.329
+!MESSAGE buffering callback sts4.classpath.AIfADoQj zuul-server false 158
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.330
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.331
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.338
+!MESSAGE classpath=162 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.353
+!MESSAGE buffering callback sts4.classpath.AIfADoQj eureka-server false 162
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.354
+!MESSAGE Preparing classpath changed notification service-products-stock
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.354
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.357
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.358
+!MESSAGE buffering callback sts4.classpath.AIfADoQj service-products-stock false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.359
+!MESSAGE executing callback sts4.classpath.AIfADoQj 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:05:47.395
+!MESSAGE executing callback sts4.classpath.AIfADoQj SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.083
+!MESSAGE Preparing classpath changed notification config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.083
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.083
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.083
+!MESSAGE buffering callback sts4.classpath.AIfADoQj config-server false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.084
+!MESSAGE executing callback sts4.classpath.AIfADoQj 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.086
+!MESSAGE executing callback sts4.classpath.AIfADoQj SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.376
+!MESSAGE Preparing classpath changed notification config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.376
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.377
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.378
+!MESSAGE buffering callback sts4.classpath.AIfADoQj config-server false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.378
+!MESSAGE executing callback sts4.classpath.AIfADoQj 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:30.381
+!MESSAGE executing callback sts4.classpath.AIfADoQj SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:39.238
+!MESSAGE Preparing classpath changed notification config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:39.239
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:39.241
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:39.241
+!MESSAGE buffering callback sts4.classpath.AIfADoQj config-server false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:39.242
+!MESSAGE executing callback sts4.classpath.AIfADoQj 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:24:39.273
+!MESSAGE executing callback sts4.classpath.AIfADoQj SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-03-24 16:37:14.833
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:38:17.194
+!MESSAGE Preparing classpath changed notification service-products-stock
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:38:17.195
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:38:17.199
+!MESSAGE classpath=167 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:38:17.200
+!MESSAGE buffering callback sts4.classpath.AIfADoQj service-products-stock false 167
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:38:17.201
+!MESSAGE executing callback sts4.classpath.AIfADoQj 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-24 16:38:17.206
+!MESSAGE executing callback sts4.classpath.AIfADoQj SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-03-24 16:38:20.084
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-config:2.1.6.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:sources:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-config:jar:sources:2.1.6.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-03-24 16:38:20.086
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:sources:2.1.6.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-03-24 16:38:20.086
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-config:jar:sources:2.1.6.RELEASE
