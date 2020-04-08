@@ -1,7 +1,0 @@
-package com.andre.servicio.app.products.models.entity;
-
-@Entity
-@Table
-public class Producto {
-
-}

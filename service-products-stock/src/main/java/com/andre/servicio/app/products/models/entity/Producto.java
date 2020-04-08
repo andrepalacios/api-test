@@ -14,6 +14,10 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.andre.servicio.app.products.exceptions.ProductAvailableException;
+import com.andre.servicio.app.products.exceptions.ProductQuantityException;
+import com.andre.servicio.app.products.exceptions.ProductSoldOutException;
+
 @Entity
 @Table(name = "productos")
 public class Producto implements Serializable {
@@ -26,14 +30,6 @@ public class Producto implements Serializable {
 	private String description;
 	private Double price;
 	
-	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-	@JoinColumn(name = "producto_id", referencedColumnName = "producto_id")
-	private List<ProductAudit> productAudit;
-	
-	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-	@JoinColumn(name = "producto_id", referencedColumnName = "producto_id")
-	private List<WharehouseActivity> wharehouseAcitvity;
-
 	// Available stock of this product.
 	@Column(name = "available_stock")
 	private Integer availableStock;
@@ -46,6 +42,38 @@ public class Producto implements Serializable {
 	// warehouses)
 	@Column(name = "maxstock_threshold")
 	private Integer maxStockThreshold;
+	
+	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@JoinColumn(name = "producto_id", referencedColumnName = "producto_id")
+	private List<ProductAudit> productAudit;
+	
+	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@JoinColumn(name = "producto_id", referencedColumnName = "producto_id")
+	private List<WharehouseActivity> wharehouseAcitvity;
+	
+	public void removeStock(Integer qty) {
+		if(this.availableStock == 0) {
+			throw new ProductSoldOutException();
+		}
+		else if(qty <= 0) {
+			throw new ProductQuantityException();
+		}
+		else if (qty > this.availableStock) {
+			throw new ProductAvailableException();
+		}
+		this.availableStock -= qty;
+	}
+	
+	public void addStock(Integer qty) {	
+		// The quantity that the client is trying to add to stock is greater than what can be physically accommodated in the Warehouse
+		if((this.availableStock + qty) > this.maxStockThreshold) {
+			// For now, this method only adds new units up maximum stock threshold. In an expanded version of this application, we
+            //could include tracking for the remaining units and store information about overstock somewhere else.
+			this.availableStock += this.maxStockThreshold - this.availableStock;
+		} else {
+			this.availableStock += qty;
+		}
+	}
 	
 	public List<ProductAudit> getProductAudit() {
 		return productAudit;
