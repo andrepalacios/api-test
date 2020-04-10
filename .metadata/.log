@@ -3962,3 +3962,24 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 13:15:34.133
 !MESSAGE executing callback sts4.classpath.UOXgEyyM SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-04-10 13:46:00.857
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 13:51:40.733
+!MESSAGE Preparing classpath changed notification zuul-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 13:51:40.734
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 13:51:40.739
+!MESSAGE classpath=174 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 13:51:40.740
+!MESSAGE buffering callback sts4.classpath.UOXgEyyM zuul-server false 174
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 13:51:40.740
+!MESSAGE executing callback sts4.classpath.UOXgEyyM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-10 13:51:41.727
+!MESSAGE executing callback sts4.classpath.UOXgEyyM SUCCESS [done]
