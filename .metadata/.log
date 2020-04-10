@@ -3736,3 +3736,57 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:j
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 15:50:12.612
 !MESSAGE executing callback sts4.classpath.yvRfFGSf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:39:00.956
+!MESSAGE Preparing classpath changed notification service-oauth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:39:00.961
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:39:00.963
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:39:00.964
+!MESSAGE buffering callback sts4.classpath.yvRfFGSf service-oauth false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:39:00.964
+!MESSAGE executing callback sts4.classpath.yvRfFGSf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:39:00.990
+!MESSAGE executing callback sts4.classpath.yvRfFGSf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:18.388
+!MESSAGE Preparing classpath changed notification service-oauth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:18.389
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:18.391
+!MESSAGE classpath=192 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:18.393
+!MESSAGE buffering callback sts4.classpath.yvRfFGSf service-oauth false 192
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:18.393
+!MESSAGE executing callback sts4.classpath.yvRfFGSf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:18.398
+!MESSAGE executing callback sts4.classpath.yvRfFGSf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:45.146
+!MESSAGE Preparing classpath changed notification service-oauth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:45.147
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:45.150
+!MESSAGE classpath=193 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:45.151
+!MESSAGE buffering callback sts4.classpath.yvRfFGSf service-oauth false 193
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:45.151
+!MESSAGE executing callback sts4.classpath.yvRfFGSf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 18:41:45.157
+!MESSAGE executing callback sts4.classpath.yvRfFGSf SUCCESS [done]
